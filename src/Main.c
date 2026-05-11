@@ -125,7 +125,7 @@ void Delete(AlxWindow* w){
 }
 
 int main(){
-    if(Create("Cellular Automa 1",2200,1200,1,1,Setup,Update,Delete))
+    if(Create("Cellular Automa Static",2200,1200,1,1,Setup,Update,Delete))
         Start();
     return 0;
 }
